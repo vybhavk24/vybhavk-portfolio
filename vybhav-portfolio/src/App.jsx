@@ -15,11 +15,11 @@ export default function App() {
       <Navbar />
       <main className="max-w-5xl mx-auto px-4">
         {/* Hero Section */}
-        <section className="flex flex-col items-center justify-center pt-4 pb-10">
+        <section className="flex flex-col items-center justify-center pt-2 pb-10">
           <img
             src="/src/assets/profile_pic.jpg"
             alt="Vybhav K"
-            className="rounded-full shadow-lg mt-4 mb-2 object-cover w-32 h-32 border-4 border-[#60A5FA]"
+            className="rounded-full shadow-lg mt-2 mb-2 object-cover w-32 h-32 border-4 border-[#60A5FA]"
             width={128}
             height={128}
           />
@@ -37,15 +37,15 @@ export default function App() {
           <Education />
           <Experience />
           <Certifications />
-          <Projects 
-            projects={[
-              { name: 'Project 1', description: 'A web app for visualizing data trends.' },
-              { name: 'Project 2', description: 'A machine learning model for classification.' },
-              { name: 'Project 3', description: 'A portfolio website built with React and Tailwind.' },
-            ]}
-          />
           <Skills />
         </div>
+        <Projects 
+          projects={[
+            { name: 'Project 1', description: 'A web app for visualizing data trends.' },
+            { name: 'Project 2', description: 'A machine learning model for classification.' },
+            { name: 'Project 3', description: 'A portfolio website built with React and Tailwind.' },
+          ]}
+        />
       </main>
       <Footer />
     </div>
