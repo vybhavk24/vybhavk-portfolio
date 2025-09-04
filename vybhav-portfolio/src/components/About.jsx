@@ -5,7 +5,10 @@ export default function About() {
         <span role="img" aria-label="About">👋</span> About Me
       </h2>
       <p className="text-base md:text-lg">
-        I am an aspiring data scientist with a background in ECE. I am passionate about data, machine learning, and problem solving. I thrive in collaborative environments and am always eager to learn and grow.
+        I am Vybhav K, a passionate data enthusiast with a strong foundation in Electronics and Communication Engineering. My curiosity for mathematics and logic naturally led me to explore data-driven technologies, machine learning, and AI. I enjoy solving real-world problems by uncovering patterns in data and building predictive models.
+      </p>
+      <p className="text-base md:text-lg">
+        Beyond tech, I am a Vipassana practitioner, poet, and swing trader — a mix that reflects analytical thinking, creativity, and a disciplined mindset.
       </p>
     </section>
   );

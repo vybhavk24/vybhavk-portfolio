@@ -15,7 +15,6 @@ export default function Contact() {
       <div className="flex flex-col sm:flex-row gap-4 mt-4">
         <a href="https://github.com/vybhavk24" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-4 py-2 rounded bg-gray-100 border border-gray-300 text-gray-800 font-semibold hover:bg-blue-100 hover:text-blue-800 transition transform hover:scale-105 text-center text-base md:text-base">GitHub</a>
         <a href="https://www.linkedin.com/in/vybhav-k-0b02891b9" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-4 py-2 rounded bg-gray-100 border border-gray-300 text-blue-700 font-semibold hover:bg-blue-100 hover:text-blue-800 transition transform hover:scale-105 text-center text-base md:text-base">LinkedIn</a>
-        <a href="https://www.kaggle.com/vybhavk24" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-4 py-2 rounded bg-[#20BEFF] border border-[#20BEFF] text-white font-semibold hover:bg-blue-600 hover:border-blue-600 hover:text-white transition transform hover:scale-105 text-center text-base md:text-base">Kaggle</a>
       </div>
     </section>
   );

@@ -30,15 +30,30 @@ export default function App() {
             Aspiring Data Scientist with a strong foundation in Electronics & Communication Engineering and Full Stack Development. Passionate about data, machine learning, and building impactful solutions.
           </p>
         </section>
+        {/* Inline Contact Bar */}
+        <section className="w-full bg-white border border-gray-200 rounded-xl shadow-md p-4 md:p-5 mb-8">
+          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-3 text-sm md:text-base">
+            <div className="font-semibold flex items-center gap-2 text-[#22223B]"><span role="img" aria-label="Contact">📞</span> Contact</div>
+            <div className="flex flex-col md:flex-row md:items-center gap-3 text-gray-700">
+              <a href="mailto:vybhavkvviet@gmail.com" className="text-blue-600 hover:underline">vybhavkvviet@gmail.com</a>
+              <span className="hidden md:inline text-gray-300">|</span>
+              <a href="tel:+917349402665" className="text-blue-600 hover:underline">+91 7349402665</a>
+            </div>
+            <div className="flex gap-3">
+              <a href="https://github.com/vybhavk24" target="_blank" rel="noopener noreferrer" className="px-3 py-1 rounded bg-gray-100 border border-gray-300 text-gray-800 font-semibold hover:bg-blue-100 hover:text-blue-800 transition">GitHub</a>
+              <a href="https://www.linkedin.com/in/vybhav-k-0b02891b9" target="_blank" rel="noopener noreferrer" className="px-3 py-1 rounded bg-gray-100 border border-gray-300 text-blue-700 font-semibold hover:bg-blue-100 hover:text-blue-800 transition">LinkedIn</a>
+            </div>
+          </div>
+        </section>
         {/* Grid of Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-8 mb-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-4 mb-10">
           <About />
-          <Contact />
           <Education />
           <Experience />
           <Certifications />
-          <Skills />
         </div>
+        {/* Skills then Projects (both full-width sections) */}
+        <Skills />
         <Projects 
           projects={[
             { name: 'Project 1', description: 'A web app for visualizing data trends.' },
