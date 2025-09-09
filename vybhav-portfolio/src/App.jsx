@@ -56,9 +56,14 @@ export default function App() {
         <Skills />
         <Projects 
           projects={[
-            { name: 'Project 1', description: 'A web app for visualizing data trends.' },
-            { name: 'Project 2', description: 'A machine learning model for classification.' },
-            { name: 'Project 3', description: 'A portfolio website built with React and Tailwind.' },
+            { name: 'EDA with Titanic Dataset', description: 'Explored the Titanic dataset to uncover insights through data cleaning, visualization, and statistical analysis.' },
+            { name: 'SQL Database Management for a Fictional Company', description: 'Designed and managed a relational database with optimized queries, joins, and reporting for business operations.' },
+            { name: 'House Price Prediction', description: 'Built a regression model to predict house prices using key features such as location, size, and amenities.' },
+            { name: 'Time Series Forecasting', description: 'Developed forecasting models to analyze and predict future trends from sequential data.' },
+            { name: 'Customer Segmentation using K-Means Clustering', description: 'Applied clustering techniques to group customers based on purchasing behavior and demographics.' },
+            { name: 'Movie Recommender System', description: 'Created a recommendation engine to suggest movies using collaborative and content-based filtering.' },
+            { name: 'Image Classification using CNN', description: 'Trained a Convolutional Neural Network to accurately classify images across different categories.' },
+            { name: 'Customer Churn Prediction', description: 'Built a machine learning model to predict customer churn and identify factors influencing retention.' },
           ]}
         />
       </main>

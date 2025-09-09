@@ -23,13 +23,13 @@ export default function Education() {
             </tr>
             <tr className="border-t">
               <td className="py-3 pr-4 whitespace-nowrap">2018</td>
-              <td className="py-3 pr-4">Nisarga Independent PU College, Kollegal</td>
+              <td className="py-3 pr-4">Nisarga Independent PU College</td>
               <td className="py-3 pr-4">Pre-University Course (Class XII)</td>
               <td className="py-3">88.6%</td>
             </tr>
             <tr className="border-t">
               <td className="py-3 pr-4 whitespace-nowrap">2016</td>
-              <td className="py-3 pr-4">Nisarga Vidyanikethana High School, Kollegal</td>
+              <td className="py-3 pr-4">Nisarga Vidyanikethana High School</td>
               <td className="py-3 pr-4">SSLC (Class X)</td>
               <td className="py-3">97%</td>
             </tr>
