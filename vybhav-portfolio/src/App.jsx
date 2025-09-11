@@ -17,7 +17,7 @@ export default function App() {
         {/* Hero Section */}
         <section className="flex flex-col items-center justify-center pt-2 pb-10">
           <img
-            src="public/assets/profile_pic.jpg"
+            src="/assets/profile_pic.jpg"
             alt="Vybhav K"
             className="rounded-full shadow-lg mt-2 mb-2 object-cover w-32 h-32 border-4 border-[#60A5FA]"
             width={128}
