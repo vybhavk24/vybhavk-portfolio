@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Projects({ projects }) {
   const defaultProjects = [
-    { name: 'Project 1', description: 'A web app for visualizing data trends.' },
-    { name: 'Project 2', description: 'A machine learning model for classification.' },
-    { name: 'Project 3', description: 'A portfolio website built with React and Tailwind.' },
+    { name: 'Project 1', description: 'A web app for visualizing data trends.', codebaseUrl: '#' },
+    { name: 'Project 2', description: 'A machine learning model for classification.', codebaseUrl: '#' },
+    { name: 'Project 3', description: 'A portfolio website built with React and Tailwind.', codebaseUrl: '#' },
   ];
   const projectList = projects || defaultProjects;
 
@@ -21,7 +21,7 @@ export default function Projects({ projects }) {
             <div className="font-semibold text-base md:text-lg">{project.name}</div>
             <div className="text-sm md:text-base text-gray-600 mb-2">{project.description}</div>
             <div className="flex flex-col sm:flex-row gap-2 mt-2">
-              <a href="#" className="px-2 py-1 text-xs border border-gray-300 rounded bg-white hover:bg-blue-100 hover:text-blue-800 transition font-semibold transform hover:scale-105 text-center">View Codebase</a>
+              <a href={project.codebaseUrl} className="px-2 py-1 text-xs border border-gray-300 rounded bg-white hover:bg-blue-100 hover:text-blue-800 transition font-semibold transform hover:scale-105 text-center">View Codebase</a>
             </div>
           </div>
         ))}

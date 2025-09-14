@@ -19,6 +19,9 @@ export default function Experience() {
             <li>Completed hands-on full stack program, building practical experience in frontend and backend development.</li>
             <li>Collaborated with industry experts to deliver small-scale projects.</li>
           </ul>
+          <div className="flex flex-col sm:flex-row gap-2 mt-2">
+            <a href="https://drive.google.com/file/d/1yj13_8Kfqa7MQV9VD9IYqor_uib3q6R4/view" className="px-2 py-1 text-xs border border-gray-300 rounded bg-gray-50 hover:bg-indigo-100 hover:text-indigo-800 transition font-semibold transform hover:scale-105 text-center">View Certificate</a>
+          </div>
         </div>
       </div>
     </section>
