@@ -30,7 +30,7 @@ export default function Certifications() {
           <a href="https://www.coursera.org/specializations/deep-learning" className="font-semibold text-base md:text-lg text-blue-700 hover:underline">Deep Learning Specialization</a>
           <div className="flex flex-col sm:flex-row gap-2 mt-2">
             <a href="https://github.com/vybhavk24/data_science_certifications/tree/main/3_Deep_Learning_Specialization" className="px-2 py-1 text-xs border border-gray-300 rounded bg-gray-50 hover:bg-emerald-100 hover:text-emerald-800 transition font-semibold transform hover:scale-105 text-center">Github Repo</a>
-            <a href="#" className="px-2 py-1 text-xs border border-gray-300 rounded bg-gray-50 hover:bg-indigo-100 hover:text-indigo-800 transition font-semibold transform hover:scale-105 text-center">View Certificate</a>
+            <a href="https://drive.google.com/file/d/1OPTGwdgCrG63tOaENMOZ0uJ6WnErxyd6/view" className="px-2 py-1 text-xs border border-gray-300 rounded bg-gray-50 hover:bg-indigo-100 hover:text-indigo-800 transition font-semibold transform hover:scale-105 text-center">View Certificate</a>
           </div>
         </div>
         <div>
@@ -43,8 +43,8 @@ export default function Certifications() {
         <div>
           <a href="https://www.coursera.org/learn/generative-ai-with-llms?myLearningTab=IN_PROGRESS" className="font-semibold text-base md:text-lg text-blue-700 hover:underline">Generative AI with LLMs</a>
           <div className="flex flex-col sm:flex-row gap-2 mt-2">
-            <a href="#" className="px-2 py-1 text-xs border border-gray-300 rounded bg-gray-50 hover:bg-emerald-100 hover:text-emerald-800 transition font-semibold transform hover:scale-105 text-center">Github Repo</a>
-            <a href="#" className="px-2 py-1 text-xs border border-gray-300 rounded bg-gray-50 hover:bg-indigo-100 hover:text-indigo-800 transition font-semibold transform hover:scale-105 text-center">View Certificate</a>
+            <a href="https://github.com/vybhavk24/data_science_certifications/tree/main/4_Generative_AI_using_LLMs" className="px-2 py-1 text-xs border border-gray-300 rounded bg-gray-50 hover:bg-emerald-100 hover:text-emerald-800 transition font-semibold transform hover:scale-105 text-center">Github Repo</a>
+            <a href="https://drive.google.com/file/d/1qND-gaN62xezFl4vJdwHM0cgR8DHL8V7/view" className="px-2 py-1 text-xs border border-gray-300 rounded bg-gray-50 hover:bg-indigo-100 hover:text-indigo-800 transition font-semibold transform hover:scale-105 text-center">View Certificate</a>
           </div>
         </div>
       </div>

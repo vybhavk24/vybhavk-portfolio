@@ -62,8 +62,8 @@ export default function App() {
             { name: 'Time Series Forecasting', description: 'Developed forecasting models to analyze and predict future trends from sequential data.', codebaseUrl: 'https://github.com/vybhavk24/data_projects/tree/main/4_Time_series_forcasting' },
             { name: 'Customer Segmentation using K-Means Clustering', description: 'Applied clustering techniques to group customers based on purchasing behavior and demographics.', codebaseUrl: 'https://github.com/vybhavk24/data_projects/tree/main/5_Customer_segmentation_using_K-means_clustering' },
             { name: 'Movie Recommender System', description: 'Created a recommendation engine to suggest movies using collaborative and content-based filtering.', codebaseUrl: 'https://github.com/vybhavk24/data_projects/tree/main/6_Movie_Recommendor_System' },
-            { name: 'Image Classification using CNN', description: 'Trained a Convolutional Neural Network to accurately classify images across different categories.', codebaseUrl: 'https://github.com/vybhavk24/data_projects/tree/main/7_Image_Classification_CNN' },
-            { name: 'Customer Churn Prediction', description: 'Built a machine learning model to predict customer churn and identify factors influencing retention.', codebaseUrl: 'https://github.com/vybhavk24/data_projects/tree/main/8_Customer_Churn_Prediction' },
+            { name: 'Image Classification using CNN', description: 'Trained a Convolutional Neural Network to accurately classify images across different categories.', codebaseUrl: 'https://github.com/vybhavk24/data_projects/tree/main/7_Image_classification_with_CNNs' },
+            { name: 'Customer Churn Prediction', description: 'Built a machine learning model to predict customer churn and identify factors influencing retention.', codebaseUrl: 'https://github.com/vybhavk24/data_projects/tree/main/8_Predicting_customer_churn' },
           ]}
         />
       </main>
